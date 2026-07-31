@@ -9,7 +9,7 @@ My personal portfolio, showcasing my work as an Android developer.
 HTML, CSS, JavaScript — hosted on GitHub Pages.
 
 ## Live Site
-[princenagar8055.github.io/REPO-NAME](https://princenagar8055.github.io/princenagar.portfolio)
+[princenagar8055.github.io/princenagar.portfolio](https://princenagar8055.github.io/princenagar.portfolio)
 
 ## Connect
 - [LinkedIn](https://linkedin.com/in/princenagar2004)
