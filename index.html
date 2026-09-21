@@ -46,15 +46,18 @@
         <p class="eyebrow">Prince Nagar · Android Developer · Jaipur, India</p>
         <h1 class="hero__title">I build Android apps<br>that ship, and <span class="accent">people keep.</span></h1>
         <p class="hero__desc">Kotlin and Jetpack Compose, structured with Clean Architecture — from the first screen to a live Play Store listing. Solo developer, end to end.</p>
+
         <div class="hero__actions">
           <a href="#work" class="btn btn--primary">See the work</a>
           <a href="#contact" class="btn btn--ghost">Get in touch</a>
         </div>
+
         <div class="hero__stats">
           <div class="stat">
             <span class="stat__num">6mo</span>
             <span class="stat__label">Android internship</span>
           </div>
+
           <div class="stat">
             <span class="stat__num">100%</span>
             <span class="stat__label">Kotlin + Compose</span>
@@ -65,12 +68,14 @@
       <div class="hero__phone">
         <div class="phone">
           <div class="phone__notch"></div>
+
           <div class="phone__screen">
             <video class="phone__video" autoplay muted loop playsinline poster="assets/ontrack/today.jpg">
               <source src="assets/ontrack/addhabit.mp4" type="video/mp4">
             </video>
           </div>
         </div>
+
         <div class="phone__glow"></div>
         <span class="phone__caption">OnTrack — live demo</span>
       </div>
@@ -79,6 +84,7 @@
 
   <!-- WORK -->
   <section class="work" id="work">
+
     <div class="section__head">
       <p class="eyebrow">Featured project</p>
       <h2>OnTrack — a habit tracker built to actually get used</h2>
@@ -87,33 +93,59 @@
 
     <!-- PROJECT: OnTrack (Flagship) -->
     <article class="project project--flagship" id="project-ontrack">
+
       <div class="project__grid">
+
         <div class="project__phones">
           <div class="phone phone--sm phone--single">
+
             <div class="phone__notch"></div>
+
             <div class="phone__screen">
               <video class="phone__video" autoplay muted loop playsinline poster="assets/ontrack/todaymark.jpg">
                 <source src="assets/ontrack/habitmarking.mp4" type="video/mp4">
               </video>
             </div>
+
           </div>
         </div>
 
         <div class="project__content">
+
           <h3 class="project__title">OnTrack</h3>
-          <p class="project__role">Habit tracker · Personal project, concept to full build</p>
-          <p class="project__desc">Most habit trackers either overwhelm you with charts or oversimplify into a checklist. OnTrack sits in between: a daily goal bar that fills as habits get done, a streak history that shows the pattern at a glance, and reminders that actually fire on time — even offline.</p>
+
+          <p class="project__role">
+            Habit tracker · Personal project, concept to full build
+          </p>
+
+          <p class="project__desc">
+            Most habit trackers either overwhelm you with charts or oversimplify into a checklist. OnTrack sits in between: a daily goal bar that fills as habits get done, a streak history that shows the pattern at a glance, and reminders that actually fire on time — even offline.
+          </p>
 
           <div class="project__highlight">
             <span class="project__highlight-label">Technical highlight</span>
-            <p>Reminders are built on AlarmManager + BroadcastReceiver + Notification Channels, with WorkManager generating each day's habit history in the background — so streaks stay accurate even if the app never opens that day.</p>
+
+            <p>
+              Reminders are built on AlarmManager + BroadcastReceiver + Notification Channels, with WorkManager generating each day's habit history in the background — so streaks stay accurate even if the app never opens that day.
+            </p>
           </div>
 
           <ul class="project__points">
-            <li><strong>Architecture</strong> — MVVM with Repository Pattern, keeping presentation, business logic, and data cleanly separated and independently testable</li>
-            <li><strong>Recurrence engine</strong> — supports Daily, Weekly, Monthly, Alternate Days, Custom Weekdays, and Custom Dates, each with its own reminder rescheduling logic</li>
-            <li><strong>Reactive data layer</strong> — Room + Coroutines + StateFlow for offline-first persistence, so the UI reflects state changes instantly with no manual refresh</li>
-            <li><strong>CRUD</strong> — full habit create/edit/delete flow, with reminders automatically rescheduled or cancelled to match</li>
+            <li>
+              <strong>Architecture</strong> — MVVM with Repository Pattern, keeping presentation, business logic, and data cleanly separated and independently testable
+            </li>
+
+            <li>
+              <strong>Recurrence engine</strong> — supports Daily, Weekly, Monthly, Alternate Days, Custom Weekdays, and Custom Dates, each with its own reminder rescheduling logic
+            </li>
+
+            <li>
+              <strong>Reactive data layer</strong> — Room + Coroutines + StateFlow for offline-first persistence, so the UI reflects state changes instantly with no manual refresh
+            </li>
+
+            <li>
+              <strong>CRUD</strong> — full habit create/edit/delete flow, with reminders automatically rescheduled or cancelled to match
+            </li>
           </ul>
 
           <div class="project__stack">
@@ -130,14 +162,22 @@
           </div>
 
           <div class="project__links">
-            <a href="https://drive.google.com/drive/folders/1n9xv3RLYc_ES9Ig_OOgyTGZtnx5QGs-u" target="_blank" rel="noopener" class="link-btn">Watch project demo →</a>
-            <a href="https://github.com/princenagar8055" target="_blank" rel="noopener" class="link-btn link-btn--ghost">Source on GitHub →</a>
+            <a href="https://drive.google.com/drive/folders/1n9xv3RLYc_ES9Ig_OOgyTGZtnx5QGs-u" target="_blank" rel="noopener" class="link-btn">
+              Watch project demo →
+            </a>
+
+            <a href="https://github.com/princenagar8055" target="_blank" rel="noopener" class="link-btn link-btn--ghost">
+              Source on GitHub →
+            </a>
           </div>
+
         </div>
       </div>
 
       <div class="gallery">
+
         <span class="gallery__label">Real screens from the app</span>
+
         <div class="gallery-strip">
           <img src="assets/ontrack/home.jpg" alt="OnTrack home screen showing habit list" loading="lazy">
           <img src="assets/ontrack/today.jpg" alt="OnTrack today screen with daily goal progress bar" loading="lazy">
@@ -146,6 +186,98 @@
           <img src="assets/ontrack/streakchange.jpg" alt="OnTrack streaks screen with updated completion pattern" loading="lazy">
           <img src="assets/ontrack/streakdetail.jpg" alt="OnTrack habit details screen showing full streak history" loading="lazy">
         </div>
+
+      </div>
+    </article>
+
+
+    <!-- PROJECT: HEIC Converter -->
+    <article class="project" id="project-heic-converter">
+
+      <div class="project__grid">
+
+        <div class="project__phones">
+
+          <div class="phone phone--sm phone--single">
+
+            <div class="phone__notch"></div>
+
+            <div class="phone__screen">
+              <video class="phone__video" autoplay muted loop playsinline>
+                <source src="assets/heic-converter/Demo.mp4" type="video/mp4">
+              </video>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="project__content">
+
+          <h3 class="project__title">HEIC Converter</h3>
+
+          <p class="project__role">
+            Image converter · Personal project, released on Google Play
+          </p>
+
+          <p class="project__desc">
+            A simple Android utility that converts HEIC and HEIF images into widely supported JPEG, PNG, and WEBP formats directly on the device. The app keeps the conversion process private and local without uploading images to a server.
+          </p>
+
+          <div class="project__highlight">
+
+            <span class="project__highlight-label">
+              Technical highlight
+            </span>
+
+            <p>
+              Local image processing + Storage Access Framework + DocumentFile + EXIF rotation handling + batch conversion.
+            </p>
+
+          </div>
+
+          <ul class="project__points">
+
+            <li>
+              <strong>Modern UI</strong> — built with Kotlin, Jetpack Compose, and Material 3 for a clean and responsive Android experience
+            </li>
+
+            <li>
+              <strong>Multiple formats</strong> — converts HEIC and HEIF images into JPEG, PNG, and WEBP
+            </li>
+
+            <li>
+              <strong>Local processing</strong> — images are processed directly on the device without uploading them to a server
+            </li>
+
+            <li>
+              <strong>Batch conversion</strong> — supports selecting and converting multiple images in a single operation, with EXIF orientation handling
+            </li>
+
+          </ul>
+
+          <div class="project__stack">
+            <span class="chip">Kotlin</span>
+            <span class="chip">Jetpack Compose</span>
+            <span class="chip">Material 3</span>
+            <span class="chip">Storage Access Framework</span>
+            <span class="chip">DocumentFile</span>
+            <span class="chip">EXIF</span>
+          </div>
+
+          <div class="project__links">
+
+            <a href="#" target="_blank" rel="noopener" class="link-btn">
+              Play Store →
+            </a>
+
+            <a href="#" target="_blank" rel="noopener" class="link-btn link-btn--ghost">
+              Source on GitHub →
+            </a>
+
+          </div>
+
+        </div>
       </div>
     </article>
 
@@ -153,29 +285,50 @@
 
   </section>
 
+
   <!-- EXPERIENCE -->
   <section class="experience" id="experience">
+
     <div class="section__head">
       <p class="eyebrow">Experience</p>
       <h2>Where the practice became professional</h2>
     </div>
 
     <article class="exp-card">
+
       <div class="exp-card__head">
+
         <div>
           <h3 class="exp-card__role">Android Developer Intern</h3>
           <p class="exp-card__company">Kooe Pvt. Ltd.</p>
         </div>
+
         <span class="exp-card__dates">Jan 2026 – Jun 2026</span>
+
       </div>
 
-      <p class="exp-card__desc">Contributed to a Smart Parking Assistance application — letting users reach a vehicle owner through QR-code scanning, calling, messaging, and location sharing, without ever exposing the owner's identity or number directly.</p>
+      <p class="exp-card__desc">
+        Contributed to a Smart Parking Assistance application — letting users reach a vehicle owner through QR-code scanning, calling, messaging, and location sharing, without ever exposing the owner's identity or number directly.
+      </p>
 
       <ul class="exp-card__points">
-        <li>Built features in Kotlin and Jetpack Compose within a live production codebase, following the team's MVVM architecture and coding standards</li>
-        <li>Integrated Firebase for real-time data handling as part of the app's core owner-contact flow</li>
-        <li>Worked daily with Git and GitHub in a collaborative workflow — branching, code review, and merging alongside the existing team</li>
-        <li>Learned professional debugging and Android architecture practices by working directly inside an app already in active development</li>
+
+        <li>
+          Built features in Kotlin and Jetpack Compose within a live production codebase, following the team's MVVM architecture and coding standards
+        </li>
+
+        <li>
+          Integrated Firebase for real-time data handling as part of the app's core owner-contact flow
+        </li>
+
+        <li>
+          Worked daily with Git and GitHub in a collaborative workflow — branching, code review, and merging alongside the existing team
+        </li>
+
+        <li>
+          Learned professional debugging and Android architecture practices by working directly inside an app already in active development
+        </li>
+
       </ul>
 
       <div class="project__stack">
@@ -186,26 +339,34 @@
         <span class="chip">QR Code Integration</span>
         <span class="chip">Git / GitHub</span>
       </div>
+
     </article>
   </section>
 
+
   <!-- SKILLS -->
   <section class="skills" id="skills">
+
     <div class="section__head">
       <p class="eyebrow">Toolbox</p>
       <h2>What I build with</h2>
     </div>
+
     <div class="skills__grid">
+
       <div class="skill-group">
         <h4>Languages</h4>
+
         <div class="skill-tags">
           <span class="chip chip--outline">Kotlin</span>
           <span class="chip chip--outline">Java</span>
           <span class="chip chip--outline">SQL</span>
         </div>
       </div>
+
       <div class="skill-group">
         <h4>Android</h4>
+
         <div class="skill-tags">
           <span class="chip chip--outline">Android SDK</span>
           <span class="chip chip--outline">Jetpack Compose</span>
@@ -214,8 +375,10 @@
           <span class="chip chip--outline">Runtime Permissions</span>
         </div>
       </div>
+
       <div class="skill-group">
         <h4>Architecture</h4>
+
         <div class="skill-tags">
           <span class="chip chip--outline">MVVM</span>
           <span class="chip chip--outline">Repository Pattern</span>
@@ -223,8 +386,10 @@
           <span class="chip chip--outline">State Management</span>
         </div>
       </div>
+
       <div class="skill-group">
         <h4>Async &amp; Background</h4>
+
         <div class="skill-tags">
           <span class="chip chip--outline">Coroutines</span>
           <span class="chip chip--outline">Flow / StateFlow</span>
@@ -233,8 +398,10 @@
           <span class="chip chip--outline">BroadcastReceiver</span>
         </div>
       </div>
+
       <div class="skill-group">
         <h4>Data</h4>
+
         <div class="skill-tags">
           <span class="chip chip--outline">Room</span>
           <span class="chip chip--outline">SQLite</span>
@@ -242,57 +409,105 @@
           <span class="chip chip--outline">REST APIs</span>
         </div>
       </div>
+
       <div class="skill-group">
         <h4>Tooling</h4>
+
         <div class="skill-tags">
           <span class="chip chip--outline">Git / GitHub</span>
           <span class="chip chip--outline">Android Studio</span>
         </div>
       </div>
+
     </div>
   </section>
+
 
   <!-- ABOUT -->
   <section class="about" id="about">
+
     <div class="about__grid">
+
       <div class="about__content">
+
         <p class="eyebrow">About</p>
+
         <h2>Not a straight line — but a consistent one</h2>
-        <p>I had completed my Bachlors in Engineering at JECRC Foundation, Jaipur, while building my career in Android development — a shift I made through self-study, an internship, and shipping my own projects rather than a straight academic line into it.</p>
-        <p>Outside the IDE, I shoot street and nature photography — some of it sold on international stock platforms — which is probably why I notice spacing and contrast in an app before I notice anything else. I write about the process in public, because most of what I've learned came from other developers doing the same.</p>
+
+        <p>
+          I had completed my Bachlors in Engineering at JECRC Foundation, Jaipur, while building my career in Android development — a shift I made through self-study, an internship, and shipping my own projects rather than a straight academic line into it.
+        </p>
+
+        <p>
+          Outside the IDE, I shoot street and nature photography — some of it sold on international stock platforms — which is probably why I notice spacing and contrast in an app before I notice anything else. I write about the process in public, because most of what I've learned came from other developers doing the same.
+        </p>
+
       </div>
-     <div class="about__photo-frame">
-  <img src="assets/ontrack/about-visual.jpg" alt="Prince Nagar">
-</div>
+
+      <div class="about__photo-frame">
+        <img src="assets/ontrack/about-visual.jpg" alt="Prince Nagar">
       </div>
+
     </div>
   </section>
 
+
   <!-- CONTACT -->
   <section class="contact" id="contact">
+
     <div class="contact__inner">
+
       <p class="eyebrow">Get in touch</p>
-      <h2>Building something in Android?<br>Let's talk.</h2>
-      <p class="contact__sub">Open to Android developer roles and freelance builds — from a single screen to a full app shipped to the Play Store.</p>
+
+      <h2>
+        Building something in Android?<br>
+        Let's talk.
+      </h2>
+
+      <p class="contact__sub">
+        Open to Android developer roles and freelance builds — from a single screen to a full app shipped to the Play Store.
+      </p>
+
       <div class="contact__actions">
-        <a href="mailto:princenagar8055sof@gmail.com" class="btn btn--primary">Email me</a>
-        <a href="https://linkedin.com/in/princenagar2004" target="_blank" rel="noopener" class="btn btn--ghost">LinkedIn</a>
-        <a href="https://github.com/princenagar8055" target="_blank" rel="noopener" class="btn btn--ghost">GitHub</a>
+
+        <a href="mailto:princenagar8055sof@gmail.com" class="btn btn--primary">
+          Email me
+        </a>
+
+        <a href="https://linkedin.com/in/princenagar2004" target="_blank" rel="noopener" class="btn btn--ghost">
+          LinkedIn
+        </a>
+
+        <a href="https://github.com/princenagar8055" target="_blank" rel="noopener" class="btn btn--ghost">
+          GitHub
+        </a>
+
       </div>
-      <p class="contact__direct">Or reach out directly — <a href="https://instagram.com/android.devs.pn8s" target="_blank" rel="noopener">@android.devs.pn8s</a></p>
+
+      <p class="contact__direct">
+        Or reach out directly —
+        <a href="https://instagram.com/android.devs.pn8s" target="_blank" rel="noopener">
+          @android.devs.pn8s
+        </a>
+      </p>
+
     </div>
   </section>
 
 </main>
 
+
 <footer class="footer">
+
   <div class="footer__inner">
     <span>Designed &amp; built by Prince Nagar</span>
     <span class="footer__dot">·</span>
     <span>Jaipur, India</span>
   </div>
+
 </footer>
 
 <script src="script.js"></script>
+
 </body>
 </html>
